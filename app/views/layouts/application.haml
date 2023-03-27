@@ -9,6 +9,8 @@
     = stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload"
     = stylesheet_link_tag "application", "data-turbo-track": "reload"
     = javascript_importmap_tags
+    = favicon_link_tag "favicon.png"
   %body
-    %main.container.mx-auto.mt-12
-      = yield
+    = render 'shared/header'
+    = yield
+    = render 'shared/footer'
