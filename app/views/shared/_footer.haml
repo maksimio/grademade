@@ -1,15 +1,16 @@
 %footer.bg-white.rounded-lg.shadow.m-4.dark:bg-gray-800
   .w-full.mx-auto.container.md:p-6.p-4.md:flex.md:items-center.md:justify-between
     %span.text-sm.text-gray-500.sm:text-center.dark:text-gray-400
-      © 2023
-      = succeed "." do
-        %a.hover:underline{:href => "https://flowbite.com/"} Flowbite™
+      2023
+      %a.hover:underline{:href => "https://www.spbstu.ru/"} Политехнический университет
     %ul.flex.flex-wrap.items-center.mt-3.text-sm.font-medium.text-gray-500.dark:text-gray-400.sm:mt-0
       %li
-        %a.mr-4.hover:underline.md:mr-6{:href => "#"} About
+        %a.mr-4.hover:underline.md:mr-6{:href => main_index_path} Main
       %li
-        %a.mr-4.hover:underline.md:mr-6{:href => "#"} Privacy Policy
+        %a.mr-4.hover:underline.md:mr-6{:href => main_contacts_path} Contacts
       %li
-        %a.mr-4.hover:underline.md:mr-6{:href => "#"} Licensing
+        %a.mr-4.hover:underline.md:mr-6{:href => main_help_path} Help
       %li
-        %a.hover:underline{:href => "#"} Contact
+        %a.mr-4.hover:underline{:href => main_about_path} About
+      %li
+        %a.hover:underline{:href => "http://rubyonrails.org"} Ruby on Rails Website
