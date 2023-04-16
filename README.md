@@ -11,3 +11,7 @@ bundle add <имя пакета>
 # Вопросы
 1. Откуда берутся ссылки на main_contacts_path
 2. Чем отличается link_to от href
+
+# База данных
+Имя: rails
+Пароль: rails
